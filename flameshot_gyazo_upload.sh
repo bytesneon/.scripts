@@ -38,3 +38,15 @@ if [ -n "$response" ]; then
 else
     echo "Failed to upload the image."
 fi
+
+
+#To use it like a shortcut from your desktop environment we can create a .desktop file in $HOME/Desktop with content:
+#[Desktop Entry]
+#Version=1.0
+#Name=Flameshot Gyazo upload
+#Comment=Take a screenshot and upload to gyazo server
+#Exec=/home/YOURUSERNAME/.scripts/flameshot_gyazo_upload.sh
+#Icon=/usr/share/icons/breeze-dark/devices/22/camera-web.svg
+#Terminal=false
+#Type=Application
+#Categories=Utility;
